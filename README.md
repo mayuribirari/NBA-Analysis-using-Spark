@@ -1,4 +1,11 @@
 # NBA-Analysis-using-Spark
+The problem can be broken down into several key tasks:
+
+Analyzing shot data: The first part involves grouping the NBA player data by player name, closest defender, and shot result to analyze the count of occurrences for each group. Additionally, fear scores are calculated based on shot results to determine the proportion of shots made versus missed.
+
+Finding the most unwanted defender: The fear_playerwise_count dataframe is further analyzed to determine the minimum fear score for each player. The closest defender associated with the minimum fear score is identified as the player's "most unwanted defender."
+
+Classifying comfortable shooting zones: The second question focuses on classifying each player's records into four comfortable shooting zones based on the matrix of shot distance, closest defender distance, and shot clock. The goal is to determine the best shooting zone for specific players based on their hit rates within each zone.
 
 The approach followed summarized as follows:
 
